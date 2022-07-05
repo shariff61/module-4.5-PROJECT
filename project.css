@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin: 5rem;
+}
+.btn {
+  background-color: #f76707;
+  padding: 0.9rem 2rem;
+  border-radius: 999px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  border: none;
+  margin: 2rem 0;
+}
+p {
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+}
+h1 {
+  font-size: 3.8rem;
+}
+.skip-color {
+  color: #f59f00;
+}
+.about-section {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.half-width {
+  width: 50%;
+}
+img {
+  border-radius: 20px;
+}
+.half-width img {
+  width: 80%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.text p {
+  margin-bottom: 4rem;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  color: #adb5bd;
+}
+h3 {
+  font-size: 2rem;
+  margin: 1.2rem 0;
+}
+.text-middle {
+  text-align: center;
+  width: 70vw;
+}
+
+.food-items {
+  display: flex;
+  gap: 2rem;
+}
+
+.items {
+  box-shadow: 2px 2px 4px gray;
+  padding: 1.6rem;
+  border-radius: 20px;
+}
+.items img {
+  height: 300px;
+}
+footer {
+  background-color: #343a40;
+  padding: 5rem;
+  text-align: center;
+}
