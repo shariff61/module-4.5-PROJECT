@@ -52,6 +52,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  background-color: hotpink;
 }
 .text p {
   margin-bottom: 4rem;
@@ -87,4 +88,8 @@ footer {
   background-color: #343a40;
   padding: 5rem;
   text-align: center;
+}
+.clip-path {
+  background-color: green;
+  clip-path: polygon(0 0, 98% 0, 100% 54%, 0% 100%);
 }
