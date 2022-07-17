@@ -37,6 +37,7 @@ h1 {
 .about-section {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
+  /* background-size: cover; */
 }
 .half-width {
   width: 50%;

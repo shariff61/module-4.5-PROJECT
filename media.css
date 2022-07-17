@@ -1,0 +1,63 @@
+@media screen and (max-width: 576px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .btn {
+    background-color: green;
+    padding: 0.5rem 1rem;
+
+    margin: 1rem 0;
+  }
+  .text-middle {
+    margin: 1.8rem auto;
+  }
+  h2 {
+    margin: 1rem;
+  }
+  .img-url {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1vh;
+  }
+  .food-items {
+    flex-direction: column;
+    gap: 1rem;
+
+    text-align: start;
+  }
+  .half-item {
+    width: 90%;
+    margin: 1rem;
+
+    padding: 1rem;
+  }
+  .food-items img {
+    margin-bottom: 1.2rem;
+  }
+  #shadow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #shadow div {
+    background-color: aqua;
+    padding: 1rem;
+    gap: 8px;
+  }
+  footer {
+    background-color: #212529;
+    padding: 1rem;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
